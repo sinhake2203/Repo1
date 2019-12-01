@@ -2,8 +2,7 @@ package com.java.coding.practices1.test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
+
 import org.junit.jupiter.api.Test;
 
 import com.java.coding.practices1.FirstClassForCheckIn;
@@ -11,8 +10,7 @@ import com.java.coding.practices1.FirstClassForCheckIn;
 class FizzBuzzTest {
 	
 	FirstClassForCheckIn fizzbuzz;
-
-
+	
 	@Test
 	void test() {
 		
@@ -22,8 +20,6 @@ class FizzBuzzTest {
 		assertEquals("19", FirstClassForCheckIn.FizBuzzSollutions(19));
 		assertEquals("0", FirstClassForCheckIn.FizBuzzSollutions(0));
 		assertEquals("-12", FirstClassForCheckIn.FizBuzzSollutions(-12));
-		
-		
-	}
+		}
 
 }
